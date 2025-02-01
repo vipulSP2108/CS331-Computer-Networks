@@ -16,6 +16,12 @@ This project demonstrates the process of capturing network traffic from a specif
 
 In this method, we capture Network Traffic using:
 
+to get info about the details of interface use
+
+```bash
+ifconfig
+```
+
 ```bash
 sudo tcpreplay --topspeed stats=60 -i enp0s3 /home/student/Downloads/1.pcap
 ```
